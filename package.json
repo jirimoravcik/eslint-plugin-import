@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-import",
-  "version": "2.31.0",
+  "name": "@jirimoravcik/eslint-plugin-import",
+  "version": "2.32.0",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/import-js/eslint-plugin-import"
+    "url": "https://github.com/jirimoravcik/eslint-plugin-import"
   },
   "keywords": [
     "eslint",
@@ -60,9 +60,9 @@
   "author": "Ben Mosher <me@benmosher.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/import-js/eslint-plugin-import/issues"
+    "url": "https://github.com/jirimoravcik/eslint-plugin-import/issues"
   },
-  "homepage": "https://github.com/import-js/eslint-plugin-import",
+  "homepage": "https://github.com/jirimoravcik/eslint-plugin-import",
   "devDependencies": {
     "@angular-eslint/template-parser": "^13.5.0",
     "@eslint/import-test-order-redirect-scoped": "file:./tests/files/order-redirect-scoped",

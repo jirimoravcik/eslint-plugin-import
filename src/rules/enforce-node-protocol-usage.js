@@ -132,6 +132,8 @@ module.exports = {
         return checkAndReport(arg, context);
       },
       ExportNamedDeclaration(node) {
+        if (!node.source) { return; }
+
         return checkAndReport(node.source, context);
       },
       ImportDeclaration(node) {
